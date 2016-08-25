@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description = <<-EOF
     JRuby wrapper for serial port communication mimicking the ruby-serialport gem.
   EOF
-  s.platform = Gem::Platform::JAVA
+  s.platform = "java"
   s.require_paths = ["lib"]
   s.files = `git ls-files`.split("\n")
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
